@@ -1,0 +1,53 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.contacto{
+  text-decoration: none;
+  color: white;
+}
+
+.inicio{
+  text-decoration: none;
+  color: white;
+}
+
+.containerHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+span{
+  font-weight: bold;
+}
+
+.containerForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem
+}
+
+input{
+  display: flex;
+  width: 80vw;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  resize: none;
+}
+
+.textDescription{
+  padding: 3rem;
+}
+
+.descripcion{
+  display: flex;
+  justify-content: center;
+}
